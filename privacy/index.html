@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GymLedger — Privacy Policy</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --accent: #0a84ff;
+    --bg: #f5f5f7;
+    --card: #ffffff;
+    --text: #1d1d1f;
+    --muted: #6e6e73;
+    --border: #e5e5ea;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #000000;
+      --card: #1c1c1e;
+      --text: #f5f5f7;
+      --muted: #98989d;
+      --border: #2c2c2e;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 680px; margin: 0 auto; padding: 48px 20px 64px; }
+  .app { display: flex; align-items: center; gap: 16px; margin-bottom: 8px; }
+  .icon {
+    width: 72px; height: 72px; border-radius: 18px;
+    background: linear-gradient(135deg, #0a84ff, #00c7be);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 36px; flex-shrink: 0;
+  }
+  h1 { font-size: 28px; margin: 0; letter-spacing: -0.02em; }
+  .tagline { color: var(--muted); margin: 4px 0 0; }
+  h2 { font-size: 20px; margin: 40px 0 12px; letter-spacing: -0.01em; }
+  .card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 14px; padding: 20px; margin-bottom: 12px;
+  }
+  .card h3 { margin: 0 0 8px; font-size: 16px; }
+  .card p { margin: 0 0 10px; color: var(--muted); font-size: 15px; }
+  .card p:last-child { margin-bottom: 0; }
+  .card ul { margin: 0 0 10px; padding-left: 20px; color: var(--muted); font-size: 15px; }
+  .card ul:last-child { margin-bottom: 0; }
+  .card li { margin-bottom: 4px; }
+  .lede { font-size: 17px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .email { display: inline-block; margin-top: 8px; font-size: 17px; font-weight: 600; }
+  .updated { color: var(--muted); font-size: 14px; margin-top: 4px; }
+  footer { margin-top: 48px; color: var(--muted); font-size: 13px; }
+  footer a { color: var(--muted); text-decoration: underline; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="app">
+      <div class="icon">🏋️</div>
+      <div>
+        <h1>GymLedger</h1>
+        <p class="tagline">Privacy Policy</p>
+      </div>
+    </div>
+    <p class="updated">Last updated 6 September 2026</p>
+
+    <div class="card">
+      <p class="lede">GymLedger is a workout log that keeps your training data on your own device and in
+      accounts you already control. There is no GymLedger account, no advertising, no third-party
+      analytics, and no tracking. The developer cannot see your workouts, meals, weight, or health data.</p>
+    </div>
+
+    <h2>What GymLedger stores on your device</h2>
+    <div class="card">
+      <p>Everything you log is written to a private database on your iPhone using Apple's SwiftData, and
+      stays there:</p>
+      <ul>
+        <li>Workouts, exercises, sets, reps and weights</li>
+        <li>Routines and training plans</li>
+        <li>Food and water entries</li>
+        <li>Body weight and body measurements</li>
+        <li>Your profile: name, height, weight, age, goal and daily targets</li>
+        <li>Your friend code, your friends' codes, and the weekly totals they have shared with you</li>
+      </ul>
+      <p>The app also uses local device storage for your theme preference, the food-lookup cache, and — on
+      Apple Watch — a copy of the exercise list and today's set count so the watch app is useful before
+      your phone reconnects.</p>
+    </div>
+
+    <h2>Apple Health</h2>
+    <div class="card">
+      <p>If you grant permission, GymLedger exchanges data with the Health app on your device. Health data
+      is governed by Apple's privacy protections, is never sent to the developer, and is never used for
+      advertising or marketing.</p>
+      <p><strong>GymLedger writes to Health:</strong></p>
+      <ul>
+        <li>Workouts you log</li>
+        <li>Active energy burned</li>
+        <li>Walking and running distance</li>
+      </ul>
+      <p><strong>GymLedger reads from Health,</strong> to keep your stats accurate and to adjust training
+      suggestions to how recovered you are:</p>
+      <ul>
+        <li>Workouts</li>
+        <li>Active energy burned</li>
+        <li>Walking and running distance</li>
+        <li>Heart rate</li>
+        <li>Step count</li>
+        <li>Body mass and height</li>
+        <li>Sleep analysis — read only; GymLedger never writes sleep data</li>
+      </ul>
+      <p>You choose what to grant, and you can change or revoke any of it at any time in the Health app
+      under Sharing &gt; Apps.</p>
+    </div>
+
+    <h2>iCloud backup</h2>
+    <div class="card">
+      <p>GymLedger can back your log up to <strong>your own private iCloud database</strong>, from Profile &gt;
+      Back Up to iCloud, and after workout sessions once backup has been used. The backup is stored in your
+      personal iCloud account under Apple's protection. The developer has no access to it, and it is never
+      shared with other users.</p>
+      <p>You can restore it from Profile &gt; Restore from iCloud, and you can manage or remove app iCloud
+      data in iOS Settings under your name &gt; iCloud.</p>
+    </div>
+
+    <h2>The shared leaderboard</h2>
+    <div class="card">
+      <p>GymLedger's Friends screen compares weekly totals with people whose friend code you have added.
+      To make that work, a small record is published to a <strong>shared, public database</strong> in the app's
+      iCloud container, identified by your randomly generated friend code — not by your name, Apple ID, or
+      email.</p>
+      <p><strong>Only this is published:</strong></p>
+      <ul>
+        <li>A display name, which stays <strong>"Anonymous"</strong> unless you turn on "Show my name"</li>
+        <li>Weekly points, workouts completed, total minutes, total calories burned, weekly streak and
+            consistency score</li>
+        <li>The time the record was last updated</li>
+      </ul>
+      <p><strong>Never published:</strong> individual workouts, exercises, sets, meals, water, body weight,
+      measurements, photos, or anything read from Apple Health.</p>
+      <p>Anyone who knows your friend code can look up those weekly totals, so treat your code as
+      semi-public and only share it with people you want to compare with. Publishing happens when you use
+      the Friends screen; you can stop it at any time with "Remove me from the shared leaderboard", which
+      deletes your published record for everyone. Your code and friends list are kept so you can rejoin
+      later with the same identity.</p>
+    </div>
+
+    <h2>Food lookups and the camera</h2>
+    <div class="card">
+      <p>When you scan a barcode or search for a food, GymLedger sends that barcode or search term to
+      <a href="https://world.openfoodfacts.org">Open Food Facts</a>, a free community food database, and
+      caches the result on your device. These requests carry no account, no device identifier, and nothing
+      about you — just the barcode or the words you typed. Open Food Facts handles those requests under
+      <a href="https://world.openfoodfacts.org/privacy">its own privacy policy</a>.</p>
+      <p>Meal photos are classified <strong>entirely on your device</strong> using Apple's built-in Vision
+      framework. Photos you take or pick are never uploaded to the developer or to any third party. Camera
+      access is used for barcode scanning and meal photos only.</p>
+    </div>
+
+    <h2>Sharing to other apps</h2>
+    <div class="card">
+      <p>If you tap a share button, GymLedger hands the text or image you chose to the system share sheet
+      or opens the social network you picked in your browser. Nothing is shared until you take that action,
+      and what happens next is governed by whichever app or site you send it to.</p>
+    </div>
+
+    <h2>What GymLedger does not do</h2>
+    <div class="card">
+      <ul>
+        <li>No advertising and no ad networks</li>
+        <li>No third-party analytics, crash-reporting, or attribution SDKs — the app ships with no
+            third-party code at all</li>
+        <li>No tracking across apps or websites, and no use of the advertising identifier</li>
+        <li>No selling or sharing of personal information</li>
+        <li>No GymLedger account, and no collection of your email address or contacts</li>
+      </ul>
+    </div>
+
+    <h2>Your control over your data</h2>
+    <div class="card">
+      <p><strong>Export:</strong> Profile &gt; Export Data writes a CSV of your workouts, food and weight
+      that you can keep or move elsewhere. Profile &gt; Import Data reads it back.</p>
+      <p><strong>Delete:</strong> Profile &gt; Delete All Data erases everything stored on the device &mdash;
+      workouts, routines, meals, water, weight, body measurements, friends, and your profile &mdash; in one
+      tap, after a confirmation that states what is and is not removed. You can also delete individual
+      workouts, meals and entries in the app. Deleting GymLedger from your device removes the on-device
+      database with it. Data written to Apple Health stays in Health, where you can review and delete it.
+      Your iCloud backup can be removed in iOS Settings &gt; iCloud. Your leaderboard record is deleted by
+      "Remove me from the shared leaderboard", or as part of Delete All Data.</p>
+      <p><strong>Health permissions:</strong> revoke at any time in the Health app under Sharing &gt; Apps.</p>
+    </div>
+
+    <h2>Children</h2>
+    <div class="card">
+      <p>GymLedger is not directed at children under 13, and the developer does not knowingly collect
+      personal information from them.</p>
+    </div>
+
+    <h2>Changes to this policy</h2>
+    <div class="card">
+      <p>If this policy changes, the updated version will be posted on this page with a new date above.
+      Material changes to what leaves your device will also be explained in the app.</p>
+    </div>
+
+    <h2>Contact</h2>
+    <div class="card">
+      <h3>Questions about privacy?</h3>
+      <p>Email us and we'll get back to you, usually within a day or two.</p>
+      <a class="email" href="mailto:supportatgymledger@gmail.com">supportatgymledger@gmail.com</a>
+    </div>
+
+    <footer>
+      GymLedger · <a href="../support/">Support</a> · Requires iOS 17 or later
+    </footer>
+  </div>
+</body>
+</html>

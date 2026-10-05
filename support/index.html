@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GymLedger — Support</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --accent: #0a84ff;
+    --bg: #f5f5f7;
+    --card: #ffffff;
+    --text: #1d1d1f;
+    --muted: #6e6e73;
+    --border: #e5e5ea;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #000000;
+      --card: #1c1c1e;
+      --text: #f5f5f7;
+      --muted: #98989d;
+      --border: #2c2c2e;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 680px; margin: 0 auto; padding: 48px 20px 64px; }
+  .app { display: flex; align-items: center; gap: 16px; margin-bottom: 8px; }
+  .icon {
+    width: 72px; height: 72px; border-radius: 18px;
+    background: linear-gradient(135deg, #0a84ff, #00c7be);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 36px; flex-shrink: 0;
+  }
+  h1 { font-size: 28px; margin: 0; letter-spacing: -0.02em; }
+  .tagline { color: var(--muted); margin: 4px 0 0; }
+  h2 { font-size: 20px; margin: 40px 0 12px; letter-spacing: -0.01em; }
+  .card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 14px; padding: 20px; margin-bottom: 12px;
+  }
+  .card h3 { margin: 0 0 8px; font-size: 16px; }
+  .card p { margin: 0; color: var(--muted); font-size: 15px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .email {
+    display: inline-block; margin-top: 8px; font-size: 17px; font-weight: 600;
+  }
+  footer { margin-top: 48px; color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="app">
+      <div class="icon">🏋️</div>
+      <div>
+        <h1>GymLedger</h1>
+        <p class="tagline">Your strength &amp; progress log</p>
+      </div>
+    </div>
+
+    <h2>Support</h2>
+    <div class="card">
+      <h3>Need help?</h3>
+      <p>Email us and we'll get back to you, usually within a day or two.</p>
+      <a class="email" href="mailto:supportatgymledger@gmail.com">supportatgymledger@gmail.com</a>
+    </div>
+
+    <h2>Frequently asked questions</h2>
+    <div class="card">
+      <h3>Is my data private?</h3>
+      <p>Yes. GymLedger stores your workouts, nutrition, and measurements locally on your device with SwiftData. Nothing leaves your device unless you choose to share it, back it up to your private iCloud, or export a CSV. Barcode and food searches go to Open Food Facts without anything identifying you. Full details are in the <a href="../privacy/">privacy policy</a>.</p>
+    </div>
+    <div class="card">
+      <h3>Does GymLedger work with Apple Health?</h3>
+      <p>GymLedger can read workouts, activity, and last night's sleep from Apple Health, and write the workouts you log. You control this — grant or revoke access anytime in Settings &gt; Health.</p>
+    </div>
+    <div class="card">
+      <h3>How do I back up my data?</h3>
+      <p>Go to Profile and choose Back Up to iCloud. You can restore a backup or import a CSV export from the same screen.</p>
+    </div>
+    <div class="card">
+      <h3>Which devices are supported?</h3>
+      <p>iPhone (iOS 17 or later), Apple Watch, and home-screen widgets.</p>
+    </div>
+    <div class="card">
+      <h3>How do I export or delete my data?</h3>
+      <p>Profile &gt; Export Data writes a CSV of your workouts, food, and weight, and Import Data reads one back. Profile &gt; Delete All Data erases everything stored on the device &mdash; workouts, routines, meals, water, weight, body measurements, friends, and your profile &mdash; in one tap, after a confirmation that says exactly what is removed. It can also remove your published leaderboard record in the same step. Data already written to Apple Health stays in Health, where you can review and delete it, and your iCloud backup is left untouched unless you remove it separately in iOS Settings.</p>
+    </div>
+
+    <footer>
+      GymLedger · v1.0 · <a href="../privacy/">Privacy Policy</a> · Requires iOS 17 or later
+    </footer>
+  </div>
+</body>
+</html>
