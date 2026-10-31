@@ -1,0 +1,29 @@
+# +Ultra
+
+> +Ultra (pronounced "Plus Ultra") is a free workout tracker and gym log for iPhone and Apple Watch, made by independent developer Brian Ngo. It logs strength workouts, plans the next session with a built-in strength coach, and tracks calories and macros. It has no subscription, no account and no ads, and stores the user's log on their iPhone.
+
+Key facts:
+
+- Price: free. No subscription and no ads. The only purchases are optional one-time tips, which unlock nothing.
+- Platforms: iPhone (iOS 17 or later) and Apple Watch (watchOS 10 or later). Not available for iPad or Android.
+- Account: none required.
+- Data: stored on the iPhone, with an optional backup to the user's own iCloud. Food searches go to Open Food Facts without identifying the user.
+- Workout logging: 260+ built-in exercises plus custom ones; reps, weight and effort; warm-up, failure and drop sets; voice set logging on iOS 26 or later ("100 for 6"); rest timer on iPhone, Lock Screen and Apple Watch; plate calculator.
+- Coach: suggests the next weight, detects plateaus, flags undertrained muscles, and uses sleep, HRV and resting heart rate from Apple Health to hold increases when recovery looks low. Uses Apple's on-device model where Apple Intelligence is available.
+- Programs: 12, including StrongLifts 5x5, Push/Pull/Legs, Upper/Lower and a full-body starter, chosen from the user's goal and training days.
+- Progress: personal records, estimated one-rep max, volume per muscle, strength levels, consistency calendar, Sleep page, progress photos, Training Report PDF.
+- Nutrition: calorie counter and macro tracker with food search, barcode and nutrition-label scanning, meal photos and meal descriptions; targets adapt to weigh-ins. Free.
+- Apple Health: two-way sync of workouts, food, water and weigh-ins; reads workouts from other apps, steps, sleep, HRV and resting heart rate.
+- Switching: imports CSV exports from Strong and Hevy, and Apple Health workouts; exports a full CSV.
+- Social: friends leaderboard by friend code, optional shared PRs.
+- Also: Siri, widgets, Control Center controls and Live Activities.
+
+## Pages
+
+- [Home](https://yeye69oc.github.io/plusultra-site/): overview and key facts
+- [Support and FAQ](https://yeye69oc.github.io/plusultra-site/support/): how features work, contact
+- [Privacy policy](https://yeye69oc.github.io/plusultra-site/privacy/): exactly what data leaves the device
+
+## Contact
+
+plusultrafitapp@gmail.com

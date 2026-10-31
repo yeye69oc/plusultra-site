@@ -3,7 +3,72 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>+Ultra</title>
+<title>+Ultra: Free Gym Workout Tracker &amp; Lifting Log for iPhone and Apple Watch</title>
+<meta name="description" content="+Ultra (Plus Ultra) is a free workout tracker and gym log for iPhone and Apple Watch, with a built-in strength coach, voice set logging and calorie tracking. No subscription, no account, no ads. Your log stays on your iPhone.">
+<link rel="canonical" href="https://yeye69oc.github.io/plusultra-site/">
+<link rel="icon" type="image/png" href="icon-512.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#0a84ff">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="+Ultra">
+<meta property="og:title" content="+Ultra: Free Gym Workout Tracker for iPhone and Apple Watch">
+<meta property="og:description" content="A free lifting log with a strength coach, voice logging and calorie tracking. No subscription, no account, no ads.">
+<meta property="og:url" content="https://yeye69oc.github.io/plusultra-site/">
+<meta property="og:image" content="https://yeye69oc.github.io/plusultra-site/icon-512.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="+Ultra: Free Gym Workout Tracker">
+<meta name="twitter:description" content="A free lifting log with a strength coach, voice logging and calorie tracking. No subscription, no account, no ads.">
+<meta name="twitter:image" content="https://yeye69oc.github.io/plusultra-site/icon-512.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MobileApplication",
+      "@id": "https://yeye69oc.github.io/plusultra-site/#app",
+      "name": "+Ultra",
+      "alternateName": ["Plus Ultra", "+Ultra: Gym Workout Tracker"],
+      "description": "A free workout tracker and gym log for iPhone and Apple Watch, with a built-in strength coach, voice set logging, 12 training programs and calorie and macro tracking. No subscription, no account and no ads; the log is stored on the user's iPhone.",
+      "applicationCategory": "HealthApplication",
+      "applicationSubCategory": "Workout tracker",
+      "operatingSystem": "iOS 17 or later, watchOS 10 or later",
+      "url": "https://yeye69oc.github.io/plusultra-site/",
+      "image": "https://yeye69oc.github.io/plusultra-site/icon-512.png",
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "featureList": [
+        "Strength workout logging with 260+ exercises, warm-up, failure and drop sets",
+        "Log a set by voice (iOS 26 or later)",
+        "Rest timer on iPhone, Lock Screen and Apple Watch",
+        "Plate calculator",
+        "Apple Watch app with heart rate between sets",
+        "On-device strength coach: next-weight suggestions, plateau detection, recovery from sleep, HRV and resting heart rate",
+        "12 training programs, including StrongLifts 5x5, Push/Pull/Legs and Upper/Lower",
+        "Personal records and estimated one-rep max",
+        "Calorie counter and macro tracker with barcode, nutrition label and meal photo",
+        "Two-way Apple Health sync",
+        "CSV import from other workout apps and full CSV export",
+        "Friends leaderboard",
+        "Siri, widgets, Control Center and Live Activities"
+      ],
+      "author": { "@id": "https://yeye69oc.github.io/plusultra-site/#maker" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://yeye69oc.github.io/plusultra-site/#maker",
+      "name": "Brian Ngo",
+      "email": "plusultrafitapp@gmail.com"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://yeye69oc.github.io/plusultra-site/#site",
+      "name": "+Ultra",
+      "url": "https://yeye69oc.github.io/plusultra-site/"
+    }
+  ]
+}
+</script>
 <style>
   :root {
     color-scheme: light dark;
@@ -32,23 +97,24 @@
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
   }
-  .wrap { max-width: 680px; margin: 0 auto; padding: 48px 20px 64px; }
-  .app { display: flex; align-items: center; gap: 16px; margin-bottom: 8px; }
-  .icon {
-    width: 72px; height: 72px; border-radius: 18px;
-    background: linear-gradient(135deg, #0a84ff, #00c7be);
-    display: flex; align-items: center; justify-content: center;
-    font-size: 36px; flex-shrink: 0;
-  }
-  h1 { font-size: 28px; margin: 0; letter-spacing: -0.02em; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; }
+  .app { display: flex; align-items: center; gap: 16px; margin-bottom: 20px; }
+  .icon { width: 80px; height: 80px; border-radius: 18px; flex-shrink: 0; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0; letter-spacing: -0.02em; }
   .tagline { color: var(--muted); margin: 4px 0 0; }
-  h2 { font-size: 20px; margin: 40px 0 12px; letter-spacing: -0.01em; }
+  .lede { font-size: 18px; margin: 0 0 12px; }
+  .cta { display: inline-block; margin: 8px 0 0; padding: 10px 18px; border-radius: 12px;
+         background: var(--accent); color: #fff; font-weight: 600; }
+  .cta:hover { text-decoration: none; opacity: .9; }
+  h2 { font-size: 21px; margin: 44px 0 12px; letter-spacing: -0.01em; }
   .card {
     background: var(--card); border: 1px solid var(--border);
     border-radius: 14px; padding: 20px; margin-bottom: 12px;
   }
   .card h3 { margin: 0 0 8px; font-size: 16px; }
   .card p { margin: 0; color: var(--muted); font-size: 15px; }
+  .facts { margin: 0; padding-left: 20px; }
+  .facts li { margin: 4px 0; }
   a { color: var(--accent); text-decoration: none; }
   a:hover { text-decoration: underline; }
   footer { margin-top: 48px; color: var(--muted); font-size: 13px; }
@@ -56,31 +122,111 @@
 </head>
 <body>
   <div class="wrap">
-    <div class="app">
-      <div class="icon">🏋️</div>
+    <header class="app">
+      <img class="icon" src="icon-512.png" width="80" height="80" alt="+Ultra app icon">
       <div>
-        <h1>+Ultra</h1>
-        <p class="tagline">Your strength &amp; progress log</p>
+        <h1>+Ultra: free gym workout tracker for iPhone and Apple Watch</h1>
+        <p class="tagline">Lifting log, strength coach and calorie counter</p>
       </div>
-    </div>
+    </header>
 
-    <div class="card">
-      <p>+Ultra is a workout log for iPhone and Apple Watch: strength training, nutrition, and
-      progress you can actually see — stored on your own device.</p>
-    </div>
+    <main>
+      <p class="lede">+Ultra (say &ldquo;Plus Ultra&rdquo;) is a free workout tracker and gym log
+      for iPhone and Apple Watch. It logs your sets, plans your next session with a built-in
+      strength coach, and tracks calories and macros. There is no subscription, no account and
+      no ads, and your log is stored on your iPhone.</p>
+      <p><span class="cta">Coming soon to the App Store</span></p>
 
-    <h2>Links</h2>
-    <div class="card">
-      <h3><a href="support/">Support</a></h3>
-      <p>Contact and frequently asked questions.</p>
-    </div>
-    <div class="card">
-      <h3><a href="privacy/">Privacy Policy</a></h3>
-      <p>Exactly what stays on your device and what does not.</p>
-    </div>
+      <h2>+Ultra at a glance</h2>
+      <div class="card">
+        <ul class="facts">
+          <li><strong>Price:</strong> free. No subscription, no ads, no in-app purchases that unlock anything; optional one-time tips only.</li>
+          <li><strong>Account:</strong> none needed.</li>
+          <li><strong>Devices:</strong> iPhone (iOS 17 or later) and Apple Watch (watchOS 10 or later). Not available for iPad or Android.</li>
+          <li><strong>Where your data lives:</strong> on your iPhone, with an optional backup to your own iCloud.</li>
+          <li><strong>Exercises:</strong> 260+ built in, plus your own.</li>
+          <li><strong>Programs:</strong> 12, including StrongLifts 5&times;5, Push/Pull/Legs, Upper/Lower and a full-body starter.</li>
+          <li><strong>Apple Health:</strong> two-way sync for workouts, food, water, weigh-ins, sleep, HRV and resting heart rate.</li>
+          <li><strong>Switching apps:</strong> imports a CSV export from Strong or Hevy, or your Apple Health workouts.</li>
+        </ul>
+      </div>
+
+      <h2>Log strength workouts fast</h2>
+      <div class="card">
+        <p>Pick from 260+ exercises or add your own. Log reps, weight and effort, with warm-up,
+        failure and drop sets. On iOS 26 or later, say &ldquo;100 for 6&rdquo; and the set is logged.
+        A rest timer runs on your phone, Lock Screen and Apple Watch, and a plate calculator knows
+        your gym&rsquo;s plates.</p>
+      </div>
+
+      <h2>A strength coach that plans your next session</h2>
+      <div class="card">
+        <p>+Ultra suggests your next weight, spots plateaus and flags muscles you&rsquo;re
+        undertraining. With Apple Health connected it compares your sleep, HRV and resting heart
+        rate with your own usual and holds an increase when you look less recovered. Tell it your
+        goal and how many days you can train, and it picks a program with progressive overload
+        built in. With Apple Intelligence, the coach explains its plan using Apple&rsquo;s
+        on-device model.</p>
+      </div>
+
+      <h2>Personal records and progress you can see</h2>
+      <div class="card">
+        <p>Every PR is celebrated with context, like &ldquo;that&rsquo;s one and a half times your
+        bodyweight.&rdquo; Stats show training and weight by week, month, 3 months or year, with a
+        consistency calendar, records, estimated one-rep max, volume per muscle, strength levels
+        and milestones. Share a Training Report PDF with a coach or physio.</p>
+      </div>
+
+      <h2>Calorie counter and macro tracker</h2>
+      <div class="card">
+        <p>Search foods, scan a barcode or nutrition label, photograph your plate, or describe a
+        meal in your own words. Calorie and macro targets adapt to your weigh-ins. Water and
+        weigh-ins too. It is free, like the rest of the app.</p>
+      </div>
+
+      <h2>Apple Watch, Siri and widgets</h2>
+      <div class="card">
+        <p>Start a session on your wrist, log sets and see your heart rate between them. Start a
+        workout, log a set or ask &ldquo;Am I recovered?&rdquo; with Siri. Widgets, Control Center
+        and Live Activities keep today&rsquo;s plan and your rest timer a glance away.</p>
+      </div>
+
+      <h2>Private by design</h2>
+      <div class="card">
+        <p>Your log lives on your iPhone. Only this leaves it: a backup to your own iCloud, food
+        searches to Open Food Facts with nothing that identifies you, your weekly totals on the
+        friends leaderboard once you join, your PRs if you share them, and anything you share.
+        Read exactly what goes where in the <a href="privacy/">privacy policy</a>.</p>
+      </div>
+
+      <h2>Common questions</h2>
+      <div class="card">
+        <h3>Is +Ultra really free?</h3>
+        <p>Yes. Workouts, the coach, stats, calorie tracking, Apple Watch and the leaderboard are
+        all free, with no subscription and no ads. Optional tips don&rsquo;t unlock anything.</p>
+      </div>
+      <div class="card">
+        <h3>Does +Ultra need an account?</h3>
+        <p>No. There is no sign-up. The friends leaderboard uses your iCloud account only if you
+        choose to join it.</p>
+      </div>
+      <div class="card">
+        <h3>Can I move my workout history from another app?</h3>
+        <p>Yes. Export a CSV from Strong or Hevy and import it during setup or in You &gt; Data
+        &amp; Backup. +Ultra shows a preview first.</p>
+      </div>
+      <div class="card">
+        <h3>Does it work without Apple Health or Apple Watch?</h3>
+        <p>Yes. Both are optional. Connecting Apple Health lets the coach use your sleep and heart
+        data to judge recovery.</p>
+      </div>
+      <p><a href="support/">More answers on the support page</a></p>
+    </main>
 
     <footer>
-      +Ultra · Requires iOS 17 or later · © 2026 Brian Ngo
+      +Ultra &middot; <a href="support/">Support</a> &middot; <a href="privacy/">Privacy Policy</a>
+      &middot; <a href="mailto:plusultrafitapp@gmail.com">plusultrafitapp@gmail.com</a>
+      &middot; Requires iOS 17 or later &middot; &copy; 2026 Brian Ngo
     </footer>
   </div>
 </body>

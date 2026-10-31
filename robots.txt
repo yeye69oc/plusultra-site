@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yeye69oc.github.io/plusultra-site/sitemap.xml
